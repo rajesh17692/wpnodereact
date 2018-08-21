@@ -1,0 +1,15 @@
+.rating {
+	position: relative;
+
+	.rating__overlay,
+	.rating__star-outline {
+		display: flex;
+		left: 0;
+		position: absolute;
+		top: 0;
+
+		.gridicon {
+			fill: $blue-medium;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+/**
+ * Sidebar Navigation Header in Sections
+ */
+.current-section {
+	position: relative;
+	margin: 0 0 8px 0;
+
+	@include breakpoint( ">660px" ) {
+		display: none;
+	}
+
+	a {
+		display: flex;
+		justify-content: flex-start;
+		cursor: pointer;
+		padding: 8px 0;
+		color: $gray-dark;
+		background: $white;
+		border-bottom: 1px solid $gray-lighten-20;
+	}
+
+	.current-section__site-title {
+		font-size: 10px;
+		color: $gray-darken-10;
+		margin: 2px 0 -3px;
+	}
+
+	.site-icon {
+		margin-right: 8px;
+	}
+
+	.gridicons-chevron-left {
+		color: $gray;
+		margin: 0 8px;
+		align-self: center;
+	}
+}

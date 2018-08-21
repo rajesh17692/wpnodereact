@@ -1,0 +1,8 @@
+.vscode
+/assets/
+/bin/
+/build/
+/docs/
+/public/
+!.eslintrc.js
+/server/devdocs/search-index.js
